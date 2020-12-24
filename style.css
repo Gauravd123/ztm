@@ -18,6 +18,13 @@ h1{
   color: #f2f3ee;
 }
 
+@media only screen and (max-width: 600px) {
+  h1{
+      font-size:1.5em;
+      padding: 0;
+  }
+}
+
 .buffer{
   height: 10rem;
 }
